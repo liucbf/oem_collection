@@ -1,0 +1,14 @@
+﻿ git笔记
+ 
+ 1.     获取项目（克隆）： 	Git repository:
+		       		git clone -b develop ssh://git@58.210.77.50:31314/wuxi-biosciences.git
+ 2. 	新建分支 ：        git checkout -b 分支名称
+	切换分支 ：	   git checkout 分支名称
+	查看分支 ：  	   git branch
+	删除分支 ：  	   git branch -d 分支名称
+ 3. 
+	分支下面只能:      commit -a -m "refs #30  sassss"	
+    	然后切到主分支:	   git checkout 主分支名
+	更新到develop：    git pull origin develop
+	合并到主分支且:    提交：git merge --no-ff  分支名称
+	提交主分支的修改:  git push 
